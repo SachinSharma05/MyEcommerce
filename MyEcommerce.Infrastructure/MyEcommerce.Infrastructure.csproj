@@ -19,4 +19,8 @@
     <ProjectReference Include="..\MyEcommerce.Core\MyEcommerce.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>

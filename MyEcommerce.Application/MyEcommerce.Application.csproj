@@ -2,6 +2,15 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyEcommerce.Core\MyEcommerce.Core.csproj" />
+    <ProjectReference Include="..\MyEcommerce.Infrastructure\MyEcommerce.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BusinessLogic\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
   </ItemGroup>
 
   <PropertyGroup>
